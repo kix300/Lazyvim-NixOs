@@ -19,12 +19,6 @@ require("lazy").setup({
     { "jaybaby/mason-nvim-dap.nvim", enabled = false },
     -- uncomment to import/override with your plugins
     { import = "plugins" },
-	{
-	  "goolord/alpha-nvim",
- 	  config = function ()
-          require'alpha'.setup(require'alpha.themes.dashboard'.config)
-      end
-	},
     {
       "nvim-treesitter/nvim-treesitter",
       init = function(plugin)

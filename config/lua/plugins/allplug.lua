@@ -7,7 +7,6 @@ return {
 			table.insert(opts.sources, { name = "emoji" })
 		end,
 	},
-
 	{ "nvim-telescope/telescope.nvim" },
 
 	--{ "RRethy/base16-nvim" },
@@ -24,5 +23,5 @@ return {
 			colorscheme = "gruvbox",
 		},
 	},]]
-	
+
 }
