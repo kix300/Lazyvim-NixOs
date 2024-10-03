@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "alpha-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1727720738,
+        "narHash": "sha256-33lhPP1C4TGo0UQJ61bwRHaiOMAB7XNehcZGaFXOPjQ=",
+        "owner": "goolord",
+        "repo": "alpha-nvim",
+        "rev": "bf3c8bb8c02ed3d9644cc5bbc48e2bdc39349cd7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "goolord",
+        "repo": "alpha-nvim",
+        "type": "github"
+      }
+    },
     "blame-me-nvim": {
       "flake": false,
       "locked": {
@@ -256,6 +272,7 @@
     },
     "root": {
       "inputs": {
+        "alpha-nvim": "alpha-nvim",
         "blame-me-nvim": "blame-me-nvim",
         "flake-parts": "flake-parts",
         "huez-nvim": "huez-nvim",

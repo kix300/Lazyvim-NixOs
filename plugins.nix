@@ -3,6 +3,7 @@ let
   # Build plugins from github
   huez-nvim = pkgs.vimUtils.buildVimPlugin { name = "huez.nvim"; src = inputs.huez-nvim; };
   blame-me-nvim = pkgs.vimUtils.buildVimPlugin { name = "blame-me.nvim"; src = inputs.blame-me-nvim; };
+  alpha-nvim = pkgs.vimUtils.buildVimPlugin { name = "alpha-nvim"; src = inputs.alpha-nvim; };
 
   mkEntryFromDrv = drv:
     if lib.isDerivation drv then
@@ -73,6 +74,7 @@ let
     lazydev-nvim
     grug-far-nvim
     git-blame-nvim
+    { name = "alpha-nvim"; path = alpha-nvim; }
     { name = "LuaSnip"; path = luasnip; }
     { name = "blame-me.nvim"; path = blame-me-nvim; }
     { name = "catppuccin"; path = catppuccin-nvim; }
