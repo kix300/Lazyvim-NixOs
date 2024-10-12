@@ -12,6 +12,7 @@
     huez-nvim = { url = "github:vague2k/huez.nvim"; flake = false; };
     blame-me-nvim = { url = "github:hougesen/blame-me.nvim"; flake = false; };
     alpha-nvim = { url = "github:goolord/alpha-nvim"; flake = false; };
+	header-nvim = { url = "github:Diogo-ss/42-header.nvim"; flake = false; };
   };
 
   outputs = { self, nixpkgs, flake-parts, ... } @ inputs:
