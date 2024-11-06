@@ -52,3 +52,8 @@ require("lazy").setup({
 		},
 	},
 })
+require("neo-tree").setup({
+    window = {
+        width = 30,  -- définissez la largeur souhaitée
+    },
+})
