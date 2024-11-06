@@ -6,4 +6,4 @@ vim.keymap.set("n", "<C-t>", function()
 	vim.cmd("vsplit | terminal")
 end, { desc = "Ouvrir un terminal dans un nouvel onglet" })
 
-vim.keymap.set("n", "<A-t>", ":bdelete!<CR>", { desc = "Fermer l'onglet actuel" })
+vim.keymap.set("n", "<A-t>", ":bdelete! | q!<CR>", { desc = "Fermer l'onglet actuel" })
