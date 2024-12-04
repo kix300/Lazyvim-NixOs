@@ -75,6 +75,7 @@ let
     lazydev-nvim
     grug-far-nvim
     git-blame-nvim
+	snacks-nvim
 	{ name = "header-nvim"; path = header-nvim; }
     { name = "alpha-nvim"; path = alpha-nvim; }
     { name = "LuaSnip"; path = luasnip; }

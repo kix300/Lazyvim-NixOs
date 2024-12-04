@@ -19,6 +19,12 @@ require("lazy").setup({
 		{ "jaybaby/mason-nvim-dap.nvim",                         enabled = false },
 		-- uncomment to import/override with your plugins
 		{ "stevearc/conform.nvim",                               enabled = false },
+		{
+			"folke/snacks.nvim",
+			priority = 1000,
+			lazy = false,
+			statuscolumn = { enabled = true },
+		},
 		{ import = "plugins" },
 		{
 			"nvim-treesitter/nvim-treesitter",
@@ -53,7 +59,7 @@ require("lazy").setup({
 	},
 })
 require("neo-tree").setup({
-    window = {
-        width = 20,  -- définissez la largeur souhaitée
-    },
+	window = {
+		width = 20,  -- définissez la largeur souhaitée
+	},
 })
